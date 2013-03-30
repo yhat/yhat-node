@@ -1,0 +1,81 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish', 'yhat' ]
+info using npm@1.1.21
+info using node@v0.8.8
+verbose config file /Users/glamp/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose publish [ 'yhat' ]
+verbose cache add [ 'yhat', null ]
+silly cache add: name, spec, args [ undefined, 'yhat', [ 'yhat', null ] ]
+verbose parsed url { pathname: 'yhat', path: 'yhat', href: 'yhat' }
+verbose addNamed [ 'yhat', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'yhat', '', false ]
+verbose raw, before any munging yhat
+verbose url resolving [ 'https://registry.npmjs.org/', './yhat' ]
+verbose url resolved https://registry.npmjs.org/yhat
+verbose etag "7W8TNNIM0KNLNE8ROAHQBMO6F"
+http GET https://registry.npmjs.org/yhat
+http 304 https://registry.npmjs.org/yhat
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+silly get cb     etag: '"7W8TNNIM0KNLNE8ROAHQBMO6F"',
+silly get cb     date: 'Sat, 30 Mar 2013 18:55:05 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag yhat from cache
+silly name, range, hasData 2 [ 'yhat', '', true ]
+silly versions [ 'yhat', [ '0.0.1' ] ]
+verbose bin dist [ '0.8-ares1.7.5-DEV-evundefined-openssl1.0.0f-v83.11.10.19-darwin-x64-11.4.2',
+verbose bin dist   { shasum: '51da36bea7133138143057af0f6c5ee28b5c1a1b',
+verbose bin dist     tarball: 'http://registry.npmjs.org/yhat/-/yhat-0.0.1.tgz' } ]
+verbose caching /Users/glamp/.npm/yhat/0.0.1/package/package.json
+verbose loadDefaults yhat@0.0.1
+silly publish { name: 'yhat',
+silly publish   description: 'A an API for yhat',
+silly publish   keywords: [ 'yhat', 'machine learning', 'api', 'stats' ],
+silly publish   version: '0.0.1',
+silly publish   homepage: 'https://github.com/yhat/yhat-node',
+silly publish   author: { name: 'Greg Lamp' },
+silly publish   main: 'lib/yhat-node',
+silly publish   directories: { lib: 'lib' },
+silly publish   repository: { type: 'git', url: 'git://github.com/yhat/yhat-node.git' },
+silly publish   engines: { node: '>=0.6.0' },
+silly publish   devDependencies: { nodeunit: '0.7', sinon: '1.4' },
+silly publish   _npmUser: { name: 'glamp', email: 'lamp.greg@gmail.com' },
+silly publish   _id: 'yhat@0.0.1',
+silly publish   dependencies: {},
+silly publish   optionalDependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.1.21',
+silly publish   _nodeVersion: 'v0.8.8',
+silly publish   _defaultsLoaded: true,
+silly publish   scripts: {},
+silly publish   dist: { tarball: 'http://registry.npmjs.org/yhat/-/yhat-0.0.1.tgz' } }
+info prepublish yhat@0.0.1
+verbose raw, before any munging yhat
+verbose url resolving [ 'https://registry.npmjs.org/', './yhat' ]
+verbose url resolved https://registry.npmjs.org/yhat
+http PUT https://registry.npmjs.org/yhat
+http 409 https://registry.npmjs.org/yhat
+verbose raw, before any munging yhat
+verbose url resolving [ 'https://registry.npmjs.org/', './yhat' ]
+verbose url resolved https://registry.npmjs.org/yhat
+http GET https://registry.npmjs.org/yhat
+http 200 https://registry.npmjs.org/yhat
+info Already published yhat@0.0.1
+verbose uploading bin dists []
+ERR! publish fail Cannot publish over existing version.
+ERR! publish fail Bump the 'version' field, set the --force flag, or
+ERR! publish fail     npm unpublish 'yhat@0.0.1'
+ERR! publish fail and try again
+ERR! 
+ERR! System Darwin 11.4.2
+ERR! command "node" "/usr/local/bin/npm" "publish" "yhat"
+ERR! cwd /Users/glamp/repository/yhat/clients/yhat-node
+ERR! node -v v0.8.8
+ERR! npm -v 1.1.21
+ERR! code EPUBLISHCONFLICT
+ERR! message publish fail
+ERR! errno {}
+verbose exit [ 1, true ]
