@@ -16,9 +16,6 @@
   "engines": {
     "node": ">=0.6.0"
   },
-  "scripts": {
-    "test": "bin/run_tests"
-  },
   "devDependencies": {
     "nodeunit": "0.7",
     "sinon": "1.4"
