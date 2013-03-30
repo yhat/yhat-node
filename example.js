@@ -1,4 +1,4 @@
-var yhat = require("./lib/yhat-node");
+var yhat = require("./lib/yhat");
 
 data = {
     "data": {
