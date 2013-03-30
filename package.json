@@ -1,0 +1,26 @@
+{
+  "name": "yhat",
+  "description": "A an API for yhat",
+  "keywords": ["yhat", "machine learning", "api", "stats"],
+  "version": "0.0.1",
+  "homepage": "https://github.com/yhat/yhat-node",
+  "author": "Greg Lamp",
+  "main": "lib/yhat-node",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+      "type": "git",
+      "url": "http://github.com/yhat/yhat-node.git"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "scripts": {
+    "test": "bin/run_tests"
+  },
+  "devDependencies": {
+    "nodeunit": "0.7",
+    "sinon": "1.4"
+  }
+}
