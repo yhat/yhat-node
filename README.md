@@ -33,7 +33,7 @@ Examples
 
     yh = yhat.init("{YOUR USERNAME}", "{YOUR API KEY}")
 
-    yh.predict("rentPredictor", data, function(rsp) {
+    yh.predict("rentPredictor", 18, data, function(rsp) {
         console.log("this is the result:", rsp)
     })
 
