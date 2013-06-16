@@ -2,7 +2,7 @@
   "name": "yhat",
   "description": "A an API for yhat",
   "keywords": ["yhat", "machine learning", "api", "stats"],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/yhat/yhat-node",
   "author": "Greg Lamp",
   "main": "lib/yhat-node",
