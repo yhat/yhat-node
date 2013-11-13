@@ -1,8 +1,13 @@
 {
   "name": "yhat",
-  "description": "A an API for yhat",
-  "keywords": ["yhat", "machine learning", "api", "stats"],
-  "version": "0.0.4",
+  "description": "an API for yhat",
+  "keywords": [
+    "yhat",
+    "machine learning",
+    "api",
+    "stats"
+  ],
+  "version": "0.0.5",
   "homepage": "https://github.com/yhat/yhat-node",
   "author": "Greg Lamp",
   "main": "lib/yhat-node",
@@ -10,8 +15,8 @@
     "lib": "lib"
   },
   "repository": {
-      "type": "git",
-      "url": "http://github.com/yhat/yhat-node.git"
+    "type": "git",
+    "url": "http://github.com/yhat/yhat-node.git"
   },
   "engines": {
     "node": ">=0.6.0"
@@ -19,5 +24,9 @@
   "devDependencies": {
     "nodeunit": "0.7",
     "sinon": "1.4"
+  },
+  "dependencies": {
+    "socket.io-client": "~0.9.16",
+    "ws": "~0.4.31"
   }
 }
