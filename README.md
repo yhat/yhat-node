@@ -38,3 +38,8 @@ Examples
     })
 
     yh.show_models(console.log)
+
+
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-46996803-1/yhat-node/README.md)](https://github.com/yhat/yhat-node) 
