@@ -1,13 +1,13 @@
 {
   "name": "yhat",
-  "description": "an API for yhat",
+  "description": "A node client for yhat ScienceOps",
   "keywords": [
     "yhat",
     "machine learning",
     "api",
     "stats"
   ],
-  "version": "0.3.2",
+  "version": "0.4.0",
   "homepage": "https://github.com/yhat/yhat-node",
   "author": "Greg Lamp",
   "main": "lib/yhat-node",
