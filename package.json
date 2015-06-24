@@ -7,10 +7,10 @@
     "api",
     "stats"
   ],
-  "version": "0.5.2",
+  "version": "0.6.0",
   "homepage": "https://github.com/yhat/yhat-node",
   "author": "Greg Lamp",
-  "main": "lib/yhat-node",
+  "main": "lib/index",
   "directories": {
     "lib": "lib"
   },
